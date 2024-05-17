@@ -1,5 +1,5 @@
-import { TextEncoder } from 'node:util'
-global.TextEncoder = TextEncoder
+// import { TextEncoder } from 'node:util'
+// global.TextEncoder = TextEncoder
 import { Bot, InlineKeyboard } from "grammy";
 
 
