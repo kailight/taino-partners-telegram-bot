@@ -1,5 +1,6 @@
 import { Bot, InlineKeyboard } from "grammy";
 
+// https://core.telegram.org/bots/api
 // https://t.me/taino_partners_bot
 // 6759620661:AAEOllBGU7xHBQgIy-7b0wDVcZ808miaO98
 
@@ -83,3 +84,5 @@ bot.on("message", async (ctx) => {
 
 //Start the Bot
 bot.start();
+
+console.log('It works.');
