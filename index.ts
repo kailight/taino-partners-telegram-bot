@@ -1,4 +1,7 @@
+import { TextEncoder } from 'node:util'
+global.TextEncoder = TextEncoder
 import { Bot, InlineKeyboard } from "grammy";
+
 
 // https://core.telegram.org/bots/api
 // https://t.me/taino_partners_bot
